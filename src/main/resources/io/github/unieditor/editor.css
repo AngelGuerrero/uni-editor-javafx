@@ -1,0 +1,7 @@
+.root { -fx-base: #202b3c; -fx-background: #172131; -fx-control-inner-background: #172131; -fx-accent: #64a8ff; -fx-focus-color: #64a8ff; -fx-font-family: 'Segoe UI', sans-serif; -fx-font-size: 13px; }
+.text-area { -fx-background-insets: 0; -fx-padding: 0; -fx-text-fill: #e4ebf5; }
+.text-area .content { -fx-padding: 16; -fx-background-color: #172131; }
+.tab-pane .tab-header-area .tab-header-background { -fx-background-color: #111b29; }
+.tab { -fx-padding: 8 16; }
+.tab:selected { -fx-background-color: #304563; }
+.menu-bar { -fx-padding: 5; }

@@ -1,0 +1,12 @@
+services:
+  editor:
+    build: .
+    ports:
+      - "127.0.0.1:6080:6080"
+    volumes:
+      - editor-files:/workspace
+    shm_size: 256m
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  editor-files:
